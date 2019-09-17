@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Red+Hat+Display|Roboto&display=swap');
+
+
+
+body,
+html {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+
+
+
+    font-family: 'Roboto', sans-serif;
+    /*paragraph font*/
+    font-family: 'Red Hat Display', sans-serif;
+    /*Header font*/
+    font-family: 'Indie Flower', cursive;
+    /*Citat font*/
+
+}
+
+.portrait {
+    background: url(img/Eriksmindeoskarogjohanna.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.text1 {
+    background: url(img/herotitle.png);
+    height: 149%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+
+
+}
+
+
+.img {
+    background-image: url(img/EriksmindeLogoInvert.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*.text1 {
+ background-image: url(img/text1.png);
+ background-position: center;
+ background-size: center;
+ height: 100%;
+ background-repeat: no-repeat;
+}*/
+
+
+
+
+
+
+
+.arrow {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid rgb(255, 255, 255);
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+.article1 {
+    padding-top: 10%;
+    text-align: center;
+    height: 100%;
+    background: url(img/artikel1back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.article2 {
+    padding-top: 10%;
+    text-align: center;
+    height: 100%;
+    background: url(img/baggrund1.JPG);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+.fade-1, .fade-2, .fade-3, .fade-4, .fade-5 {
+    opacity: 0;
+}
+
+.article3 {
+    padding-top: 10%;
+    text-align: center;
+    height: 100%;
+    background: url(img/artikelback2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox1 {
+    display: flex;
+}
+
+.section1 {
+    max-width: 33%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.83);
+    box-shadow: 0px 11px 19px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 16%;
+    border-radius: 10%;
+
+}
+
+.section2 {
+    width: 33%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.83);
+    box-shadow: 0px 11px 19px 0px rgba(0, 0, 0, 0.75);
+    margin-right: 16%;
+    border-radius: 10%;
+}
+
+.section3 {
+    width: 33%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.83);
+    box-shadow: 0px 11px 19px 0px rgba(0, 0, 0, 0.75);
+    margin-right: 16%;
+    border-radius: 10%;
+}
+
+.section3 ul li {
+    font-family: 'roboto';
+    list-style: square;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+
+.p1 {
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 60%;
+    font-family: 'Roboto', sans-serif;
+    /*paragraph font*/
+    font-size: 100%;
+    text-align: justify;
+}
+
+#fakta {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    max-width: 60%;
+    font-family: 'Roboto', sans-serif;
+    /*paragraph font*/
+    font-size: 100%;
+}
+
+#p2 {
+    font-size: 200%;
+    margin: 0 auto;
+    color: white;
+    font-weight: 900;
+    margin-top: 3em;
+}
+
+.p2 {
+    font-size: 200%;
+    margin: 0 auto;
+    color: white;
+    font-weight: 900;
+    margin-top: 1.5em;
+}
+
+h2 {
+    padding-top: 1em;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    /*Header font*/
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 200%;
+    color: white;
+    margin-top: -2em;
+}
+
+/*.begge { 
+box-shadow: 0px 11px 19px 0px rgba(0,0,0,0.75);
+    margin-bottom: 2em;
+margin-top: -5em;
+
+} */
+
+.blooper {
+    height: 100%;
+    /* the bigger the nubmer, the more scrolling needed */
+
+    position: sticky;
+
+
+}
+
+
+
+#myVideo {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -6;
+}
+
+.slider-wrapper {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 4px 4px black;
+}
+
+.slider {
+    height: 50px;
+    padding-left: 15px;
+}
+
+.slider-text1 {
+
+    animation: slide 5s linear infinite;
+}
+
+.slider-text2 {}
+
+.slider-text3 {}
+
+.slider div {
+    color: #fff;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 2px 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.slider {
+    height: 50px;
+    padding-left: 15px;
+    overflow: hidden;
+    /* hide the text outside the slider div area */
+}
+
+@keyframes slide {
+    0% {
+        margin-top: -300px;
+    }
+
+    33% {
+        margin-top: -200px;
+    }
+
+    66% {
+        margin-top: -100px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes slide {
+    0% {
+        margin-top: -300px;
+    }
+
+    5% {
+        margin-top: -200px;
+    }
+
+    /* 5% delay */
+    33% {
+        margin-top: -200px;
+    }
+
+    38% {
+        margin-top: -100px;
+    }
+
+    /* 5% delay */
+    66% {
+        margin-top: -100px;
+    }
+
+    71% {
+        margin-top: 0px;
+    }
+
+    /* 5% delay */
+    100% {
+        margin-top: 0px;
+    }
+}
+
+
+.outer-div {
+    height: 100%;
+    overflow: hidden;
+}
+
+.inner-div {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+    background-image: url(img/skolen.JPG);
+}
+
+.inner-div:hover {
+    transform: scale(1.1);
+}
+
+
+
+.article2helle {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, 0.83);
+    box-shadow: 0px 11px 19px 0px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1% 0;
+    border-radius: 10%;
+    margin-top: -3em;
+}
+
+p {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 120%;
+}
+
+.faelles {
+    background: url(img/elevHygge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding-top: 15%;
+}
+
+
+.citat {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    text-shadow: 2px 2px black;
+    width: 35%;
+    display: inline-table;
+    margin: 0 auto;
+    margin-left: 3.4em;
+    margin-top: 1em;
+
+}
+
+/*Nyt fra Helle___________*/
+/*Logo__________________*/
+.back3 {
+    background: #FFF;
+}
+
+.back3 img {
+    width: 50%;
+    position: relative;
+    top: -40px;
+}
+
+
+
+/*Diverse info_____________*/
+.infoBox {
+    background-image: url(img/sammenhold.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.info {
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    padding-top: 15%;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.83);
+    box-shadow: 0px 11px 19px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 15%;
+}
+
+/*Knap_____________*/
+.button {
+    font-family: 'Red Hat Display', sans-serif;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 4px 4px 9px 0px #6b6e6a;
+    background-color: #797979;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 14px 40px;
+    text-shadow: 0px 1px 0px #8f918e;
+}
+
+.button:hover {
+    background-color: #5a5a5a;
+}
+
+#form {
+    display: none;
+}
+
+/*Form lavet efter inspiration fra: https://codepen.io/matmarsiglio/pen/HLIor_______*/
+input,
+textarea {
+    color: #000000;
+
+}
+
+input:focus,
+textarea:focus {
+    color: #000000;
+}
+
+
+
+/* on hover placeholder */
+
+input:hover,
+textarea:hover {
+    color: #000000;
+    font-size: 0.875em;
+}
+
+input:hover:focus,
+textarea:hover:focus {
+    color: #000000;
+}
+
+
+
+
+#form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    background: transparent;
+    outline: none;
+    color: #726659;
+    border: solid 1px #000000;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+
+    background: transparent;
+    outline: none;
+
+    color: #726659;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+
+    border: solid 1px #000000;
+
+    transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+#submit {
+    width: 502px;
+
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+
+    font-family: 'Lato', sans-serif;
+
+
+    outline: none;
+    cursor: pointer;
+
+    border: solid 1px #000000;
+    border-top: none;
+}
+
+#submit:hover {
+    color: #e2dedb;
+}
+
+/*Footer____________________________________*/
+footer {
+    text-align: center;
+    position: relative;
+    background-color: white;
+    height: 100%;
+}
+
+footer h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    display: block;
+    color: black;
+}
+
+footer h4 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#footer {
+    display: inline;
+}
+
+#footer1,
+#footer2,
+#footer3,
+#footer4,
+#footer5 {
+    display: inline-block;
+    padding: 2%;
+    width: 15%;
+    margin: 0 auto;
+}
